@@ -1,6 +1,6 @@
 package com.packag3;
 
-Window][Debug##Default]
+[Window][Debug##Default]
 Pos=60,60
 Size=400,400
 Collapsed=0
