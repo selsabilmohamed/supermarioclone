@@ -449,7 +449,9 @@ public class CollisionDetectorTests {
 	        Rigidbody2D body = new Rigidbody2D();
 	        box.setRigidbody(body);
 
-	        Vector2f point = new Vector2f(4, 4.3f);
+	        Vector2f point = new Vector2f(32, 29.3f);
+	        
+	        
 
 	        assertTrue(IntersectionDetector2D.pointInBox2D(point, box));
 	    }
@@ -461,7 +463,7 @@ public class CollisionDetectorTests {
 	        Rigidbody2D body = new Rigidbody2D();
 	        box.setRigidbody(body);
 
-	        Vector2f point = new Vector2f(-4.9f, -4.9f);
+	        Vector2f point = new Vector2f(-42.9f, -4.322f);
 
 	        assertTrue(IntersectionDetector2D.pointInBox2D(point, box));
 	    }
@@ -486,7 +488,7 @@ public class CollisionDetectorTests {
 	        body.setTransform(new Vector2f(10));
 	        box.setRigidbody(body);
 
-	        Vector2f point = new Vector2f(4 + 10, 4.3f + 10);
+	        Vector2f point = new Vector2f(13 + 111, 32.3f + 10);
 
 	        assertTrue(IntersectionDetector2D.pointInBox2D(point, box));
 	    }
